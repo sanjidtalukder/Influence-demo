@@ -247,6 +247,32 @@ font-size: 12px;
     width: 20px;
     height: 14px;
 }
+
+.footer{
+    background-color: rgba(2, 1, 27, 0.849);
+}
+.footer h3{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 21px;
+text-align: center;
+}
+.footer h5{
+    color: rgb(217, 219, 225);
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: center;
+}
+.footer-img{
+text-align: center;
+
+}
+.footer-img img{
+    width: 17.07px;
+    height: 17.07px;
+    /* background-color: rgba(2, 1, 27, 0.849); */
+   margin: 10px;
+}
 /* Media queries for responsiveness */
 
 @media (max-width: 800px) {
