@@ -201,6 +201,52 @@ font-size: 14px;
 text-align: left;
 margin-left: 12px;
 }
+
+.gear{
+    display: flex;
+    justify-content: center;
+   
+    gap: 24px;
+}
+.gear-image{
+    width: 410px;
+    height: 270px;
+    border-radius: 7px;
+    
+}
+.products{
+
+    padding: 20px;
+    margin-top: 18px;
+}
+.products h1{
+    width: 100%;
+    color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 700;
+}
+.products p{
+    color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 12px;
+
+}
+.products button {
+    width: 100px;
+    height: 44px;
+    cursor: pointer;
+    border-radius: 8px;
+    background: rgb(224, 44, 109);
+    border: none;
+    color: white;
+ 
+}
+
+.products button img {
+    width: 20px;
+    height: 14px;
+}
 /* Media queries for responsiveness */
 
 @media (max-width: 800px) {
